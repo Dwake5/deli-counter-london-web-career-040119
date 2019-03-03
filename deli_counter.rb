@@ -8,5 +8,5 @@ def line(katz_deli)
   katz_deli.each_with_index do |value, index|
     string += " #{index.to_i+1}. #{value}"
   end
-  puts string
+  puts "#{string}"
 end
