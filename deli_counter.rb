@@ -11,3 +11,16 @@ def line(katz_deli)
   puts "#{string}"
   end
 end
+
+def take_a_number(katz_deli, person)
+  katz_deli.push(person)
+  puts "Welcome, #{person}. You are number #{katz_deli.length} in line."
+end
+
+def now_serving(katz_deli, person)
+  if katz_deli.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "#{katz_deli.shift}"
+  end
+end
