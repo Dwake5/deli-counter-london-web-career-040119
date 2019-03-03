@@ -8,8 +8,6 @@ def line(katz_deli)
   katz_deli.each_with_index do |value, index|
     string += " #{index.to_i+1}. #{value}"
   end
+  puts string
 end
 
-
-def take_a_number(array, string)
-end
