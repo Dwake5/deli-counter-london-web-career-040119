@@ -9,5 +9,5 @@ def line(katz_deli)
     string += " #{index.to_i+1}. #{value}"
   end
   puts "#{string}"
-end
+  end
 end
