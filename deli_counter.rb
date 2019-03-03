@@ -7,6 +7,7 @@ def line(array)
   string = "The line is currently:"
   array.each_with_index do |value, index|
     string += " #{index.to_i+1}. #{value}"
+  end
 end
 
 
